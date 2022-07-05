@@ -8,7 +8,7 @@ class Wave2Vec2Inference():
         self.model = Wav2Vec2ForCTC.from_pretrained(model_name)
 
     def buffer_to_text(self,audio_buffer):
-        """ This function takes an audio data (audio chunk) as an input and transcribes it using the wav2vec2 model used in our case.
+        """ This function takes an audio data (audio chunk) as an input and transcribes it using the wav2vec2 model exploited in our case.
             It was invoked in live_asr.py to transcribe the audio chunks. 
         """
         if(len(audio_buffer)==0):
