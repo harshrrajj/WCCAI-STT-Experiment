@@ -35,7 +35,7 @@ I've already tested the Wav2Vec2 model on audio files, performing batch transcri
 
 ## Code walk-through ##
 [live_asr.py](https://github.com/harshrrajj/WCCAI-STT-Experiment/blob/main/live-asr.py) is the heart of this project!\
-All the code files (wav2vec2_inference.py, live_asr.py, and speechToTextLIVE.py) have been appropriately commented in detail. Every small detail can be found in the codes themselves, and they've been made easy to understand.
+All the code files (wav2vec2_inference.py, live_asr.py, and speechToTextLIVE.py) have been appropriately commented thoroughly. Every small detail can be found in the codes themselves, and they've been made easy to understand.
 
 ***To run the project and test speech-to-text, just execute the speechToTextLive.py file!***\
 Or, run the [DockerFile](https://github.com/harshrrajj/WCCAI-STT-Experiment/blob/main/Dockerfile) directly. The docker file has been run on a Linux virtual environment and all the errors have been resolved.
