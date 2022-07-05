@@ -7,7 +7,7 @@ from live_asr import LiveWav2Vec2
 ################################
 
 englishModel = "facebook/wav2vec2-large-960h-lv60-self"  # The only dialects involved: (US, EU, CN)
-#This model(from the huggingface hub) often works better thatn wav2vec2-base-960h
+#This model(from the huggingface hub) works better thatn wav2vec2-base-960h
 
 asr = LiveWav2Vec2(englishModel,device_name="default")   # This downloads the model and instantiates it as well as specifies the device to be used for microphone.
 
