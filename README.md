@@ -16,7 +16,7 @@ I've already tested the Wav2Vec2 model on audio files, performing batch transcri
 
 * Note that the model implemented is CPU extensive! I tried running it on both CPU and GPU processors, and the only difference noted is that with GPU, the program runs faster, which is also rather typical.
 
-* All the Python Packages needed to be installed are given in the 'requirements.txt' file. Let's describe them one by one:
+* All the Python Packages needed to be installed are given in the '[requirements.txt](https://github.com/harshrrajj/WCCAI-STT-Experiment/blob/main/requirements.txt)' file. Let's describe them one by one:
    * ***torch:*** The torch package contains data structures for multi-dimensional tensors and defines mathematical operations over these tensors. This porgram uses PyTorch as an optimized Deep Learning tensor library based on Python and Torch.
    * ***torchaudio:*** Torchaudio is a library for audio and signal processing with PyTorch, which is generally used to provide powerful audio I/O functions.
    * ***transformers:*** Transformers package in Python contains a variety of pre-trained AI models, including the one we are using for this project. In our code, this package is simply used to download the "facebook/wav2vec2-large-960h-lv60-self" model.
