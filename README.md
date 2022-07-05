@@ -26,7 +26,7 @@ I've already tested the Wav2Vec2 model on audio files, performing batch transcri
 * Possible issues with installing some of the packages and their resolution:
    * ***webrtcvad:***
      * **Issue:** Installation errors
-     * **Resolution:** Do not use the pip command to install this package, rather use the following on the anaconda command prompt: ```conda install -c conda-forge webrtcvad```
+     * **Resolution:** Do not use the pip command to install this package, rather use the following on the Anaconda command prompt: ```conda install -c conda-forge webrtcvad```
    * ***pyaudio:***
       * **Issue:** Installation errors
       * **Resolution:** Use the WHL file which can be downloaded from: [https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio). There are several versions that can be downloaded and used. For example, 'PyAudio‑0.2.11‑cp38‑cp38‑win_amd64.whl' is what I used for a 64-bit windows environment with Python version = 3.8. Then for installing the PyAudio package: Use the following command on the prompt: ```pip install "path"\PyAudio‑0.2.11‑cp38‑cp38‑win_amd64.whl```, where "path" is the location on your PC where you downloaded the WHL file.
