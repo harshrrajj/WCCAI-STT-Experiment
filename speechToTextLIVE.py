@@ -6,14 +6,15 @@ from live_asr import LiveWav2Vec2
 
 ################################
 
-englishModel = "facebook/wav2vec2-large-960h-lv60-self"  # The only dialects involved: (US, EU, CN)
-#This model(from the huggingface hub) works better thatn wav2vec2-base-960h
+englishModel = "facebook/wav2vec2-large-960h-lv60-self"  # This model(from the huggingface hub) works better than "wav2vec2-base-960h" and many others.
+# The only dialects involved: (US, EU, CN)
 
-asr = LiveWav2Vec2(englishModel,device_name="default")   # This downloads the model and instantiates it as well as specifies the device to be used for microphone.
+asr = LiveWav2Vec2(englishModel,device_name="default")   # calls the LiveWav2Vec2 class used in live_asr.py
+# live_asr.py or LiveWav2Vec2 class of that program is the heart of this project. It's been invoked to perfrom the live transcription as shown below.
 
 ################################
 
-
+# Refer to LiveWav2Vec2 class of live_asr.py file.
 asr.start()
 
 try:
